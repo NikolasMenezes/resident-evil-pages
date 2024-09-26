@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
 
+:root {
+    --primary-color: #b5212b;
+    --primary-bg-color: #09090B;
+    --text-color: #ffffff;
+    --font-size-big: 24px;
+    --font-size-medium: 20px;
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -7,4 +15,103 @@
     font-family: "Source Sans 3", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
+}
+
+body {
+    background-color: var(--primary-bg-color);
+    color: var(--text-color);
+}
+
+a {
+    color: var(--text-color);
+    text-decoration: none;
+    font-size: var(--font-size-big);
+}
+
+a:hover {
+    color: var(--primary-color);
+    transition-duration: 300ms;
+}
+
+ul {
+    list-style: none;
+}
+
+/** Header */
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+}
+
+header ul {
+    display: flex;
+    gap: 20px;
+}
+
+
+.logo {
+    height: 150px;
+}
+
+.btn {
+    background-color: var(--primary-color);
+    border: none;
+    color: var(--text-color);
+    padding: 15px 20px;
+    font-weight: 500;
+    font-size: var(--font-size-medium);
+}
+
+.btn:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+/** Footer */
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid #ffffff;
+}
+
+footer ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.footer-links {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.footer-logo {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    
+    h1 {
+        font-size: var(--font-size-big);
+        font-weight: 500;
+        text-align: center;
+    }
+}
+
+#copyright {
+    text-align: center;
+    font-size: var(--font-size-medium);
 }
