@@ -1,6 +1,5 @@
-#banner-section {
 
-}
+/* Banner */
 
 .banner-container {
     display: grid;
@@ -49,4 +48,39 @@
 
 #banner4 {
     background-image: url('/assets/img/re4-remake-baner.jpg');
+}
+
+/* About */
+
+#about-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+#text-div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 30%;
+}
+
+#img-div {
+    background-image: url('/assets/img/mr-x.png');
+    background-position: center;
+    background-size: cover;
+    position: sticky;
+    top: 25%;
+    width: 500px;
+    height: 500px;
+}
+
+#about-section p {
+
+}
+
+#about-container {
+    display: flex;
+    justify-content: space-around;
 }
