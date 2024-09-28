@@ -28,7 +28,7 @@
                 </li>
             </ul>
         </nav>
-        <button class="btn" type="button">New Game</button>
+        <a class="btn" href="/pages/new-game.html">New Game</a>
     </header>
 
     <main>
@@ -37,66 +37,53 @@
             <form>
                 <h3>Game info</h3>
                 <div class="form-section">
-                    <div class="fields-group">
-                        <div class="form-group">
-                            <label for="game-name">Game name</label>
-                            <input type="text" required id="game-name" name="game-name">
-                        </div>
-                        <div class="form-group">
-                            <label for="protagonist">Protagonist</label>
-                            <select name="protagonist" id="protagonist">
-                                <option value="" disabled selected>Select a protagonist</option>
-                                <option value="leon">Leon Kennedy</option>
-                                <option value="jill">Jill Valetine</option>
-                                <option value="claire">Claire Redfield</option>
-                                <option value="chris">Chris Redfield</option>
-                            </select>
-                        </div>
+                    <div id="name-input" class="form-group">
+                        <label for="game-name">Game name</label>
+                        <input type="text" required id="game-name" name="game-name">
                     </div>
-
-                    <div class="fields-group">
-                        <div class="fields-group">
-                            <div class="form-group">
-                                <label for="cam-perspective">Cam Perspective</label>
-                                <input type="text" required id="cam-perspective" name="cam-perspective">
-                            </div>
-                            <div class="form-group">
-                                <label for="game-place">Game place</label>
-                                <input type="text" required id="game-place" name="game-place">
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label for="plot">Plot</label>
-                            <textarea name="plot" id="plot" cols="30" rows="5"></textarea>
-                        </div>
+                    <div id="protagonist-input" class="form-group">
+                        <label for="protagonist">Protagonist</label>
+                        <select name="protagonist" id="protagonist">
+                            <option value="" disabled selected>Select a protagonist</option>
+                            <option value="leon">Leon Kennedy</option>
+                            <option value="jill">Jill Valetine</option>
+                            <option value="claire">Claire Redfield</option>
+                            <option value="chris">Chris Redfield</option>
+                        </select>
+                    </div>
+                    <div id="cam-perspective-input" class="form-group">
+                        <label for="cam-perspective">Cam Perspective</label>
+                        <input type="text" required id="cam-perspective" name="cam-perspective">
+                    </div>
+                    <div id="game-place-input" class="form-group">
+                        <label for="game-place">Game place</label>
+                        <input type="text" required id="game-place" name="game-place">
+                    </div>
+                    <div id="plot-input" class="form-group">
+                        <label for="plot">Plot</label>
+                        <textarea name="plot" id="plot" cols="30" rows="5"></textarea>
                     </div>
                 </div>
-
-
 
                 <h3>
                     Your information
                 </h3>
                 <div class="form-section">
-                    <div class="fields-group">
-                        <div class="form-group">
-                            <label for="name">Name</label>
-                            <input type="text" required id="name" name="name">
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Email</label>
-                            <input type="email" required id="email" name="email">
-                        </div>
+                    <div id="name-info-input" class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" required id="name" name="name">
                     </div>
-                    <div class="fields-group">
-                        <div class="form-group">
-                            <label for="cellphone">Cellphone</label>
-                            <input type="number" required id="cellphone" name="cellphone">
-                        </div>
-                        <div class="form-group">
-                            <label for="country">Country</label>
-                            <input type="text" required id="country" name="country">
-                        </div>
+                    <div id="email-input" class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" required id="email" name="email">
+                    </div>
+                    <div id="cellphone-input" class="form-group">
+                        <label for="cellphone">Cellphone</label>
+                        <input type="number" required id="cellphone" name="cellphone">
+                    </div>
+                    <div id="country-input" class="form-group">
+                        <label for="country">Country</label>
+                        <input type="text" required id="country" name="country">
                     </div>
                 </div>
 
