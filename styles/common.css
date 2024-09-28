@@ -5,8 +5,8 @@
     --primary-bg-color: #09090B;
     --text-color: #ffffff;
     --font-size-big: 40px;
-    --font-size-medium: 24px;
-    --font-size-small: 20px;
+    --font-size-medium: 20px;
+    --font-size-small: 14px;
 }
 
 * {
@@ -114,7 +114,7 @@ footer ul {
     display: flex;
     flex-direction: column;
     gap: 12px;
-    
+
     h1 {
         font-size: var(--font-size-medium);
         font-weight: 500;
