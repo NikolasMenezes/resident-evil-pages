@@ -128,3 +128,14 @@ footer ul {
     text-align: center;
     font-size: var(--font-size-small);
 }
+
+.link-btn {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.plus-icon {
+    width: 20px;
+}
