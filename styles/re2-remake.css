@@ -1,5 +1,5 @@
 #banner-img {
-  background-image: url('/assets/img/re2-main-banner.jpg');
+  background-image: url('../assets/img/re2-main-banner.jpg');
   width: 100%;
   height: 800px;
   background-position: center;
@@ -67,15 +67,15 @@
 }
 
 #card-claire {
-  background-image: url('/assets/img/re2-remake-claire-card.jpg');
+  background-image: url('../assets/img/re2-remake-claire-card.jpg');
 }
 
 #card-leon {
-  background-image: url('/assets/img/re2-remake-leon-card.jpg');
+  background-image: url('../assets/img/re2-remake-leon-card.jpg');
 }
 
 #card-ada {
-  background-image: url('/assets/img/ada-re2-remake-card.jpg');
+  background-image: url('../assets/img/ada-re2-remake-card.jpg');
 }
 
 .character-card:hover {

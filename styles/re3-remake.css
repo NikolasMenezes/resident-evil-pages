@@ -1,5 +1,5 @@
 #banner-img {
-  background-image: url('/assets/img/re3-remake-main-banner.jpg');
+  background-image: url('../assets/img/re3-remake-main-banner.jpg');
   width: 100%;
   height: 800px;
   background-position: center;
@@ -67,15 +67,15 @@
 }
 
 #card-jill {
-  background-image: url('/assets/img/jill-re3-remake-card.jpg');
+  background-image: url('../assets/img/jill-re3-remake-card.jpg');
 }
 
 #card-carlos {
-  background-image: url('/assets/img/carlos-re3-remake-card.jpg');
+  background-image: url('../assets/img/carlos-re3-remake-card.jpg');
 }
 
 #card-nemesis {
-  background-image: url('/assets/img/nemesis-re3-remake-card.jpg');
+  background-image: url('../assets/img/nemesis-re3-remake-card.jpg');
 }
 
 .character-card:hover {

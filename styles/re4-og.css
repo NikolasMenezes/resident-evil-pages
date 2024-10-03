@@ -1,5 +1,5 @@
 #banner-img {
-  background-image: url('/assets/img/re4-og-banner.jpg');
+  background-image: url('../assets/img/re4-og-banner.jpg');
   width: 100%;
   height: 800px;
   background-position: center;
@@ -67,15 +67,15 @@
 }
 
 #card-leon {
-  background-image: url('/assets/img/re4-og-leon-card.jpg');
+  background-image: url('../assets/img/re4-og-leon-card.jpg');
 }
 
 #card-ashley {
-  background-image: url('/assets/img/re4-og-ashley-card.jpg');
+  background-image: url('../assets/img/re4-og-ashley-card.jpg');
 }
 
 #card-ada {
-  background-image: url('/assets/img/re4-og-ada-card.jpg');
+  background-image: url('../assets/img/re4-og-ada-card.jpg');
 }
 
 .character-card:hover {

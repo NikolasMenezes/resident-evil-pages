@@ -35,19 +35,19 @@
 }
 
 #banner1 {
-    background-image: url('/assets/img/re2-baner.jpg');
+    background-image: url('../assets/img/re2-baner.jpg');
 }
 
 #banner2 {
-    background-image: url('/assets/img/re3-baner.jpg');
+    background-image: url('../assets/img/re3-baner.jpg');
 }
 
 #banner3 {
-    background-image: url('/assets/img/re4-og-banner.jpg');
+    background-image: url('../assets/img/re4-og-banner.jpg');
 }
 
 #banner4 {
-    background-image: url('/assets/img/re4-remake-baner.jpg');
+    background-image: url('../assets/img/re4-remake-baner.jpg');
 }
 
 /* About */
@@ -67,7 +67,7 @@
 }
 
 #img-div {
-    background-image: url('/assets/img/mr-x.png');
+    background-image: url('../assets/img/mr-x.png');
     background-position: center;
     background-size: cover;
     position: sticky;
